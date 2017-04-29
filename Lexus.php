@@ -17,6 +17,10 @@ class Lexus extends Car
         }
 
     }
+    public function getCost()
+    {
+        return $this->cost + $this->leatherCost;
+    }
 
 }
 

@@ -5,6 +5,7 @@ include "ICar.php";
 class Car implements ICar
 {
     protected $gSpeed = 0;
+    protected $cost = 9000;
 
     public function drive($speed)
     {
@@ -31,6 +32,10 @@ class Car implements ICar
         }
 
     }
+
+    public function getCost(){
+        return $this->cost;
+}
 
 
 }

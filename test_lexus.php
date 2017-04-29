@@ -7,4 +7,5 @@ $car->drive(10000);
 echo "<pre>";
 print_r($car);
 echo "<hr />";
+echo "cost of the Lexus is " . $car->getCost();
 ?>
