@@ -6,8 +6,17 @@ include "Car.php";
 
 class Lexus extends Car
 {
-private $leatherSeats = "brown";
-private $leatherCost = 4000;
+    private $leatherSeats = "brown";
+    private $leatherCost = 4000;
+    public function drive($speed)
+    {
+        if ($speed > 200) {
+            $this->gSpeed = 200;
+        } else {
+            $this->gSpeed = $speed;
+        }
+
+    }
 
 }
 

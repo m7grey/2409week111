@@ -4,7 +4,7 @@
 include "ICar.php";
 class Car implements ICar
 {
-    private $gSpeed = 0;
+    protected $gSpeed = 0;
 
     public function drive($speed)
     {
