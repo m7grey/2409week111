@@ -4,7 +4,7 @@ include("Car.php");
 $car = new Car();
 
 //$car->speed = $x;
-$car->drive(50);
+$car->drive(10000);
 
 print_r($car);
 
