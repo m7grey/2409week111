@@ -1,8 +1,8 @@
 <?php
 
 // filename Car.php
-
-class Car
+include "ICar.php";
+class Car implements ICar
 {
     private $gSpeed = 0;
 
