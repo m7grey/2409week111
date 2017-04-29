@@ -4,9 +4,12 @@
 
 class Car
 {
-    public $speed = 0;
+    private $speed = 0;
     public function drive($speed)
     {
+        if ($speed > 130) {
+            $this->speed = 130;
+        }
 
     }
 }
