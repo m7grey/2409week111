@@ -21,6 +21,18 @@ class Car
         $this->gSpeed = 0;
     }
 
+    public function reverse($speed)
+    {
+        $speed = abs($speed) * -1;
+        if ($speed < -50) {
+            $this->gSpeed = -50;
+        } else {
+            $this->gSpeed = $speed;
+        }
+
+    }
+
+
 }
 
 ?>
