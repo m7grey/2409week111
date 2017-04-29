@@ -15,6 +15,12 @@ class Car
         }
 
     }
+
+    public function stop()
+    {
+        $this->gSpeed = 0;
+    }
+
 }
 
 ?>
